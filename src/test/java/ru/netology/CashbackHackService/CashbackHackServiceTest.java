@@ -4,8 +4,10 @@ import ru.netology.service.CashbackHackService;
 
 //import.org.junit.test;
 //import static org.junit.Assert.*;
+
 public class CashbackHackServiceTest {
     CashbackHackService service = new CashbackHackService();
+    //Тесты на  Junit4
 
     @org.junit.Test
     // меньше нуля на 1
