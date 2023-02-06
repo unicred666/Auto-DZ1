@@ -1,12 +1,14 @@
 package ru.netology.service;
 
+//import.org.junit.test;
+//import static org.junit.Assert.*;
 public class CashbackHackServiceTest {
     CashbackHackService service = new CashbackHackService();
 
     @org.junit.Test
     // меньше нуля на 1
     public void lessThanZeroBy1() {
-        org.junit.Assert.assertThrows(RuntimeException.class, () ->{
+        org.junit.Assert.assertThrows(RuntimeException.class, () -> {
             service.remain(-1);
         });
     }
