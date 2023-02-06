@@ -1,5 +1,7 @@
 package ru.netology.service;
 
+import ru.netology.service.CashbackHackService;
+
 public class CashbackHackServiceTest {
     CashbackHackService service = new CashbackHackService();
 
